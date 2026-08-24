@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart — Ember &amp; Third</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="logo">Ember <span>&amp;</span> Third</a>
+      <nav class="main-nav">
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#origins">Origins</a>
+        <a href="index.html#about">About</a>
+        <a href="cart.html" class="cart-link">
+          Cart
+          <span class="cart-badge" data-cart-count>0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Your cart</h2>
+        </div>
+        <div id="cart-content">
+          <!-- populated by js/main.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Ember &amp; Third Coffee Roasters</span>
+      <span><a href="index.html#shop">Continue shopping</a></span>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

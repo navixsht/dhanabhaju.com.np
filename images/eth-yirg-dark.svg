@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#262019"/>
+  <rect x="0" y="0" width="400" height="300" fill="#6E4526" opacity="0.12"/>
+  <g transform="translate(200,150)">
+    <path d="M -55 -70 L 55 -70 L 62 60 Q 62 90 0 90 Q -62 90 -55 60 Z" fill="#6E4526" opacity="0.85"/>
+    <rect x="-55" y="-70" width="110" height="34" fill="#1c1815"/>
+    <circle cx="0" cy="-53" r="9" fill="none" stroke="#6E4526" stroke-width="2"/>
+    <line x1="-40" y1="20" x2="40" y2="20" stroke="#1c1815" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-40" y1="36" x2="40" y2="36" stroke="#1c1815" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#ede6d6" opacity="0.55">Yirgacheffe Dark</text>
+</svg>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ember &amp; Third — Small-Batch Coffee Roaster</title>
+  <meta name="description" content="Coffee roasted to order and shipped within 48 hours. Single-origin lots from Ethiopia, Colombia, Guatemala, Sumatra, and Brazil." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="logo">Ember <span>&amp;</span> Third</a>
+      <nav class="main-nav">
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#origins">Origins</a>
+        <a href="index.html#about">About</a>
+        <a href="cart.html" class="cart-link">
+          Cart
+          <span class="cart-badge" data-cart-count>0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="hero-eyebrow">Roasted Tuesdays &amp; Fridays</p>
+        <h1>Coffee roasted to order, shipped within 48 hours.</h1>
+        <p class="hero-sub">
+          Six single-origin lots, cupped and logged the day they're roasted.
+          No blends pretending to be something they're not — just the
+          lot, the process, and the date it left the roaster.
+        </p>
+        <div class="hero-actions">
+          <a href="#shop" class="btn btn-primary">Shop current lots</a>
+          <a href="#origins" class="btn btn-outline">See origins</a>
+        </div>
+
+        <dl class="cupping-strip">
+          <div>
+            <dt>Lots in rotation</dt>
+            <dd>6</dd>
+          </div>
+          <div>
+            <dt>Roasted this week</dt>
+            <dd>Tue &amp; Fri</dd>
+          </div>
+          <div>
+            <dt>Ships within</dt>
+            <dd>48 hours</dd>
+          </div>
+          <div>
+            <dt>Origins</dt>
+            <dd>5 countries</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Current lots</h2>
+          <p class="section-note">Roast level shown light → dark on every card.</p>
+        </div>
+        <div class="product-grid" id="product-grid">
+          <!-- populated by js/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="origins">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Where it comes from</h2>
+        </div>
+        <p class="hero-sub" style="max-width:70ch;">
+          We buy in small lots directly from mills and cooperatives in
+          Ethiopia, Colombia, Guatemala, Indonesia, and Brazil, and we
+          publish the process — washed, natural, or wet-hulled — on every
+          bag. If a lot sells out, it doesn't come back until next season.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>About the roastery</h2>
+        </div>
+        <p class="hero-sub" style="max-width:70ch;">
+          Ember &amp; Third is a small roastery. We roast twice a week in
+          batches under 20lb, cup every batch before it ships, and print
+          the roast date on the bag — not a "best by" date eight months out.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Ember &amp; Third Coffee Roasters</span>
+      <span><a href="cart.html">View cart</a></span>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
